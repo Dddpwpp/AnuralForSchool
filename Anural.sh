@@ -57,6 +57,7 @@ echo '{
   "DefaultNotificationsSetting": 2,
   "DefaultSearchProviderEnabled": true,
   "DefaultSearchProviderIconURL": "http://www.google.com/s2/favicons?domain=google.com ",
+  "DefaultSearchProviderKeyword": "google.com "
   "URLBlocklist": [ "chrome://extensions", "chrome://certificate-manager", "chrome://extensions-internals", "sites.google.com", "javascript://", "javascript://*", "chrome://inspect", "chrose.netlify.app", "netlify.com", "chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/dashboard.html#settings.html", "chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm", "chrome://flags", "win11.blueedge.com", "chromeenterprise.google/policies", "about:blank", "chrome-untrusted://" ],
   "URLAllowlist": [ "mpasd.schoology.com", "mpasd.net" ],
   "JavaScriptBlockedForUrls": [ "github.com", "mpasd.schoology.com", "mpsad.net" ],
