@@ -9,3 +9,5 @@ Includes Anural but it has my school's policies
 - Go to `chrome://policy` and it should be changed
 - If it didn't change then press `Alt + Volume up + X`
 - Done.
+
+--I don't plan on making this for RootFS
