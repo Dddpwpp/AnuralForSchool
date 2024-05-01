@@ -198,7 +198,37 @@ echo '{
   "WebAppInstallForceList": "",
   "LacrosSecondaryProfilesAllowed": "true",
   "LacrosSelection": "user_choice",
-  "DownloadDirectory": ""
+  "DownloadDirectory": "",
+  "deviceLocalAccountPolicies": {
+  "68747470733a2f2f626c7565626f6f6b2d6368726f6d65626f6f6b2e6170702e636f6c6c656765626f6172642e6f7267@web-kiosk-apps.device-local.localhost": {
+  "AttestationEnabledForUser": true,
+  "AttestationExtensionAllowlist": [ "joaneffahikmmipmidpkeedopejmhbbm" ],
+  "AutoFillEnabled": false,
+  "AutofillAddressEnabled": false,
+  "AutofillCreditCardEnabled": false,
+  "AutoplayAllowed": true,
+  "DeviceAttributesAllowedForOrigins": [ "https://bluebook-chromebook.app.collegeboard.org" ],
+  "ExtensionInstallBlocklist": [ "*" ],
+  "ExtensionInstallForcelist": [ "joaneffahikmmipmidpkeedopejmhbbm;https://bluebook.app.collegeboard.org/downloads/chromebook-extension/update.xml" ],
+  "FloatingAccessibilityMenuEnabled": false,
+  "LidCloseAction": 3,
+  "PasswordManagerEnabled": false,
+  "TranslateEnabled": false,
+  "UrlKeyedAnonymizedDataCollectionEnabled": true,
+  "UserFeedbackAllowed": false,
+  "6e69636b6d706a64666562636f70636b6b666a6d666c626c6e6d696a62696f6d@kiosk-apps.device-local.localhost": {
+  "AttestationEnabledForUser": true,
+  "AutoFillEnabled": false,
+  "AutofillAddressEnabled": false,
+  "AutofillCreditCardEnabled": false,
+  "AutoplayAllowed": true,
+  "FloatingAccessibilityMenuEnabled": false,
+  "LidCloseAction": 3,
+  "PasswordManagerEnabled": false,
+  "TouchVirtualKeyboardEnabled": false,
+  "TranslateEnabled": false,
+  "UrlKeyedAnonymizedDataCollectionEnabled": true,
+  "UserFeedbackAllowed": false
 }' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
 cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
 mount --bind /tmp/overlay/etc /etc
